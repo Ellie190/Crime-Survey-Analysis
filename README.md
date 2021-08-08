@@ -2,7 +2,7 @@
 R Dashboard that provides insights on questions asked on the Crime Surveillance System - Survey. The questions are based on how communities feel about crime related to arson, common assault and possession of deadly weapons. Additionally, on how the implementation of smart surveillance systems would help in detecting the crimes mentioned in real-time.
 
 ## Participant Question-Anaswer Section
-- This section of the dashboard shows the questions or options the participants were asked/given
+- This section of the dashboard shows the questions the participants were asked
 - The barplot shows the responses of the participants based on the questions asked or options given 
 - The dashboard user can filter through the various questions/options given to obtain responds corresponding to the options
 
