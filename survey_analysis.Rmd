@@ -116,27 +116,27 @@ tm_crime <- function(or_text) {
 
 #### Creating term document matrix for the long survey questions 
 ```{r warning=FALSE, message=FALSE}
-or_alarm <- tm_crime(cs_df[8])
-or_alert <- tm_crime(cs_df[10])
+cs_alarm <- tm_crime(cs_df[8])
+cs_alert <- tm_crime(cs_df[10])
 ```
 
 
 ##### Reason for: do you think that alarms sounding off are an effective way to discourage criminal activity
 ```{r warning=FALSE, message=FALSE}
-wordcloud2(or_alarm, color='random-dark')
+wordcloud2(cs_alarm, color='random-dark')
 ```
 
 
 ##### Reason for: do you believe that an automated alert from a surveillance system would improve authority response time
 ```{r warning=FALSE, message=FALSE}
-wordcloud2(or_alert, color='random-dark')
+wordcloud2(cs_alert, color='random-dark')
 ```
 
 #### Most Frequent words
 - Based on reason given for answering: do you believe that an automated alert from a surveillance system would improve authority response time
 ```{r warning=FALSE, message=FALSE}
-row.names(or_alert) <- c()
-df_alert <- or_alert[1:20,]
+row.names(cs_alert) <- c()
+df_alert <- cs_alert[1:20,]
 df_alert$word <- as.character(df_alert$word)
 df_alert$word <- factor(df_alert$word, levels = unique(df_alert$word)[order(df_alert$freq, decreasing = TRUE)])
 df_alert %>% 
