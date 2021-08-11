@@ -1,0 +1,14 @@
+name: Crime-Survey-Analysis
+title: Crime-Survey-Analysis
+username:
+account: eli2
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4479822
+bundleId: 4910892
+url: https://eli2.shinyapps.io/Crime-Survey-Analysis/
+when: 1628674246.23134
+lastSyncTime: 1628674246.23134
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|LICENSE|README.md|requirements.txt|survey_analysis.Rmd|utils/loadpackages.R|Sample Images

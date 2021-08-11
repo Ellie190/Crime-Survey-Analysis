@@ -2,14 +2,9 @@ shiny
 shinydashboard
 stringr
 tidyverse
-lubridate
-hms
 scales
-highcharter
 ggplot2
 plotly
-xts
-readxl
 knitr
 DT
 rpivotTable
@@ -17,7 +12,6 @@ openintro
 tidyr
 tm
 SnowballC
-wordcloud
 wordcloud2
 RColorBrewer
 RCurl
