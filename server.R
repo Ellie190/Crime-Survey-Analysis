@@ -1,4 +1,6 @@
-server <- function(input, output, session) {
+library(auth0)
+
+auth0_server(function(input, output, session) {
   # Read data 
   cs_df <- read.csv('Crime Surveillance System - Survey.csv')
   
@@ -180,4 +182,4 @@ server <- function(input, output, session) {
     ggplotly(atplot)
   })
   
-}
+})

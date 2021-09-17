@@ -34,3 +34,10 @@
 
 # Comma Separated files 
 *.csv
+
+# R Environment Variables
+.Renviron
+
+# YML Files
+_auth0.yml
+
